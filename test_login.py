@@ -5,7 +5,7 @@ from yaml.loader import SafeLoader
 
 st.set_page_config(page_title="Test Login")
 
-st.title("🔐 Test de inicio de sesión mínimo")
+st.title("🔐 Test de inicio de sesión mínimo v3")
 
 with open("usuarios.yaml") as file:
     config = yaml.load(file, Loader=SafeLoader)
