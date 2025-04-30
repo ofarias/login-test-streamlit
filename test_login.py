@@ -17,7 +17,7 @@ authenticator = stauth.Authenticate(
     expiry_days=config["cookie"]["expiry_days"]
 )
 
-auth_status = authenticator.login(location="main")
+auth_status = authenticator.login(location="main", fields={'Form name':'Login', 'Username':'Usuario', 'Password':'Contraseña', 'Login':'Iniciar sesión'})
 
 st.write("Estado de login:", auth_status)
 
