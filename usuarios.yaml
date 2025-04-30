@@ -1,0 +1,10 @@
+credentials:
+  usernames:
+    admin:
+      name: Oscar Admin
+      password: '$2b$12$rjYqj69aER4RehZdDuGFXO7AvDlmCE1xeFiS50Y/gLCUKWeghYbPy'
+      email: admin@example.com
+cookie:
+  expiry_days: 3
+  key: 'firma_segura'
+  name: 'auth_cookie'
